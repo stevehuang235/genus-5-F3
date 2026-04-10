@@ -1,6 +1,6 @@
 This collection of code computes all isomorphism classes of generic curves of genus 5 over $$\mathbb{F}_{3}$$ and stores all the data, including the ones used in the intermediate steps. Our computation uses the fact that a generic curve of genus 5 arises as a complete intersection of three quadrics in $$\mathbf{P}^4$$. *We do not store the intermediate data files due to space limit.*
 
-```2-tuples-f3.txt``` - representatives of $$\operatorname{PGL}_5(\mathbf{F}_3)$$-orbits of two-dimensional subspaces of the space of quadrics in $$\mathbf{P}^4$$, equivalently, $$PGL_5(\mathbf{F}_3)$$-orbits of $$Gr(2,15)$$.
+```2-tuples-f3.txt``` - representatives of $$PGL_5(\mathbf{F}_3)$$-orbits of two-dimensional subspaces of the space of quadrics in $$\mathbf{P}^4$$, equivalently, $$PGL_5(\mathbf{F}_3)$$-orbits of $$Gr(2,15)$$.
 
 ```enum_generic.sage``` - SageMath code that enumerates candidate curves. For each two-dimensional space of quadrics that has a singular subscheme of dimension less than 2, we extend it to a three-dimensional space. 
 
